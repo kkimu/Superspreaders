@@ -1,7 +1,7 @@
 # Superspreaders
 研究
 ソーシャルネットワークにおけるSuperspreader(拡散者・影響力の高いユーザ)を推定する。
-データセットは4つTwitter・Facebook・APS(http://lev.ccny.cuny.edu/~hmakse/soft_data.html),Twitter_NoW(研究室でクローリングしたデータ)
+データセットは4つTwitter・Facebook・APS(http://lev.ccny.cuny.edu/~hmakse/soft_data.html), Twitter_NoW(研究室でクローリングしたデータ)
 
 ##プログラムについて
 ### diffusion.py
