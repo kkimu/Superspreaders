@@ -9,7 +9,7 @@ t0 <- proc.time()
 for (i in commandArgs()[5]:commandArgs()[6]) {
     t1 <- proc.time()
     j <- 10
-    while (j <= 100) {
+    while (j <= 90) {
         fn <- paste(dataset,"/sampling/",i,"/",method,"_",j,"per.txt",sep="")
         d <- read.table(fn,sep=" ")
         g <- graph.data.frame(d,directed=F)
