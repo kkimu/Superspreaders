@@ -14,14 +14,14 @@
 [Twitter,Facebook,APS,Twitter_NoW]/data/link.txtにリンクのデータ
 [Twitter,Facebook,APS,Twitter_NoW]/result/に結果を出力
 
-## c_xxx.R
+### c_xxx.R
 サンプリングされたネットワークそれぞれで、影響力推定の指標(degree,closeness,betweenness,PageRank,k-core)を計算する。
 計算結果はwork/resultに保存
 
-## overlap.py
+### overlap.py
 指標の計算結果から上位100,500,1000,2000ノードのOverlapを計算する。
 
-## diffusion_average.py
+### diffusion_average.py
 指標の計算結果から上位100,500,1000,2000ノードの平均被引用数を計算する。
 
 ### investigate/
