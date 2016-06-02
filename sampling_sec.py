@@ -6,7 +6,7 @@ from operator import itemgetter
 
 t0 = time.time()
 t1 = time.time()
-dataset = "Twitter" #Twitter_NoW Facebook APS Twitter
+dataset = "Facebook" #Twitter_NoW Facebook APS Twitter
 percent = [0.1, 0.2, 0.5, 1, 2, 5, 10, 20, 30, 40, 50, 60, 70, 80, 90] #サンプリングレート
 
 g = defaultdict(list)

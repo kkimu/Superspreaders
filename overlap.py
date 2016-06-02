@@ -11,7 +11,8 @@ sampling = ["rand","bfs","dfs","sec"]
 per = [100,90,80,70,60,50,40,30,20,10]
 #per = [100,90,80,70,60,50,40,30,20,10,5,2,1,0.5,0,2,0.1]
 #overlap = [100,500,1000,2000]
-overlap = [1000,2000,4000,10000,20000,40000]
+#overlap = [2000,4000,10000,40000]
+overlap = [3908,19538,39077]
 result = defaultdict(lambda : defaultdict(lambda : defaultdict(lambda : defaultdict(list))))
 #リツイート数による正解のランキングをrt_rankに入れる
 rt_rank = []
@@ -75,4 +76,4 @@ for o in overlap:
             for c in cent:
                 f.write(",{}".format(ave[s][c][o][per.index(p)]))
             f.write("\n")
-    f.write("\n")
+    #f.write("\n")

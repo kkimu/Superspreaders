@@ -1,6 +1,7 @@
 *~
 *.log
 *.txt
+*.csv
 #*#
 investigate/*.png
 investigate/*.eps

@@ -1,3 +1,7 @@
+# diffusion.py
+# 各ユーザの情報の拡散数を求める
+# {dataset}/data/diffusion.txtは情報拡散のエッジリスト
+
 import time
 from collections import defaultdict
 
